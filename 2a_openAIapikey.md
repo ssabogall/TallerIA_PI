@@ -77,7 +77,7 @@ openAI.env
 ```
 
 <div align="center">
-  <img src="imgs/key8b.png" alt="Contenido del gitignore">
+  <img src="imgs/key_gitignore.png" alt="Contenido del gitignore">
 </div>
 
 ✅ Así te aseguras de que la API key **NO SE SUBA** nunca al repositorio.
