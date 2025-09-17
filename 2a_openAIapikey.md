@@ -48,7 +48,7 @@ openai_apikey="sk-XXXXXXXXXXXXXXXXXXXX"
   <img src="imgs/key22.png" alt="Archivo env">
 </div>
 
-Ubica el archivo **`openAIs.env`** en la carpeta raíz de tu proyecto:
+Ubica el archivo **`openAI.env`** en la carpeta raíz de tu proyecto:
 
 <div align="center">
   <img src="imgs/key7.png" alt="Ubicación del archivo env">
