@@ -38,10 +38,10 @@
 
 ## 📥 Paso 2: Almacenar la API Key en un archivo `.env` (Protección de la clave)
 
-Crea un archivo llamado **`api_keys.env`** en la raíz del proyecto usando cualquier editor de texto (VSCode, Sublime, etc.):
+Crea un archivo llamado **`openAI.env`** en la raíz del proyecto usando cualquier editor de texto (VSCode, Sublime, etc.):
 
 ```
-openai_api_key="sk-XXXXXXXXXXXXXXXXXXXX"
+openai_apikey="sk-XXXXXXXXXXXXXXXXXXXX"
 ```
 
 <div align="center">
@@ -71,7 +71,7 @@ El archivo `.gitignore` evita que archivos sensibles (como tus llaves de API) se
 
 2. Abre `.gitignore` y agrega lo siguiente al final:
 ```
-api_keys.env
+openAI.env
 *.env
 .env
 ```
