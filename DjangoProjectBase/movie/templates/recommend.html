@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Recommender</title>
+</head>
+<body>
+    <h1>🎬 Sistema de Recomendación</h1>
+
+    <form method="POST">
+        {% csrf_token %}
+        <input type="text" name="prompt" placeholder="Escribe una descripción de película..." style="width:300px;">
+        <button type="submit">Buscar</button>
+    </form>
+
+    {% if recommended %}
+        <h2>✅ Película recomendada:</h2>
+        <p><strong>{{ recommended.title }}</strong> (Similitud: {{ similarity_score|floatformat:4 }})</p>
+        <p>{{ recommended.description }}</p>
+        <img src="{{ recommended.image.url }}" width="200">
+    {% endif %}
+</body>
+</html>
